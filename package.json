@@ -1,0 +1,16 @@
+{
+	"name": "node-sprint",
+	"version": "0.0.1",
+	"private": true,
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"dependencies": {
+		"knex": "^0.14.4",
+		"sqlite3": "^4.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.17.3"
+	}
+}
